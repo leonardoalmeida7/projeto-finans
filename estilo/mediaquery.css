@@ -1,0 +1,198 @@
+@charset "UTF-8";
+
+@media screen and (min-width: 580px) and (max-width: 770px) {
+
+        div.conteiner_header {
+            width: 70%;
+            min-width: 540px;
+        }
+        
+        #cadastro {
+            width: 550px;
+        }
+        main {
+            width: 550px;
+        }
+
+}
+
+@media screen and (min-width: 771px) and (max-width: 988px){
+    header {
+        padding: 0px 30px;
+        height: 600px;
+        background-image: url(../img/capa-mulher.png);
+        background-repeat: no-repeat;
+        background-position: right -10%  bottom;
+    }
+
+    div.conteiner_header {
+        width: 95%;
+        max-width: 704px;
+
+    }
+
+
+    header nav {
+        margin-bottom: 100px;
+
+    }
+
+    .info {
+        width: 380px;
+        
+    }
+
+
+    main {
+        width: 95%;
+        max-width: 704px;
+        display: grid;
+        grid-template-columns: repeat(2, 50%);
+        column-gap: 5%;
+    }
+
+    main .conteudo {
+        margin: 50px 0px;
+    }
+
+    aside {
+        width: 90%;
+        margin: auto;
+    }
+
+    aside .conteudos {
+        display: grid;
+        grid-template-columns: repeat(3, 33%);
+        column-gap: 3%;
+    }
+
+    div#conteudo-text {
+        margin-top: 22%;
+    }
+    
+    div#conteudo-text2 {
+        margin-top: 55%;
+    }
+    
+}
+
+@media screen and (min-width: 989px) and (max-width: 1200px){
+    header {
+        padding: 0px 30px;
+        height: 600px;
+        background-image: url(../img/capa-mulher.png);
+        background-repeat: no-repeat;
+        background-position: right 10%  bottom;
+    }
+
+    div.conteiner_header {
+        width: 90%;
+       
+    }
+
+
+    header nav {
+        margin-bottom: 100px;
+
+    }
+
+    .info {
+        width: 380px;
+        
+    }
+
+    main {
+        width: 85%;
+        display: grid;
+        grid-template-columns: repeat(2, 50%);
+        column-gap: 5%;
+    }
+
+    main .conteudo {
+        margin: 50px 0px;
+    }
+
+    aside {
+        width: 80%;
+        margin: auto;
+    }
+
+    aside .conteudos {
+        display: grid;
+        grid-template-columns: repeat(3, 30%);
+        column-gap: 10%;
+    }
+
+    div#conteudo-text {
+        margin-top: 22%;
+    }
+    
+    div#conteudo-text2 {
+        margin-top: 55%;
+    }
+    
+    
+}
+
+@media screen and (min-width: 1201px) {
+    header {
+        padding: 0px 30px;
+        height: 600px;
+        background-image: url(../img/capa-mulher.png);
+        background-repeat: no-repeat;
+        background-position: right 20% bottom;
+        
+    }
+
+    div.conteiner_header {
+        width: 90%;
+        max-width: 1200px;
+    }
+
+    div.imagem {
+        display: block;
+    }
+
+    header nav {
+        margin-bottom: 100px;
+
+    }
+
+    .info {
+        width: 550px;
+        
+    }
+
+    main {
+        max-width: 1300px;
+        width: 70%;
+        display: grid;
+        grid-template-columns: repeat(2, 50%);
+        column-gap: 5%;
+    }
+
+    main .conteudo {
+        margin: 50px 0px;
+    }
+
+    aside {
+        max-width: 1300px;
+        width: 70%;
+        margin: auto;
+    }
+
+    aside .conteudos {
+        display: grid;
+        grid-template-columns: repeat(3, 30%);
+        column-gap: 10%;
+    }
+
+    div#conteudo-text {
+        margin-top: 22%;
+    }
+    
+    div#conteudo-text2 {
+        margin-top: 55%;
+    }
+    
+}

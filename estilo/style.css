@@ -1,0 +1,70 @@
+@charset "UTF-8";
+
+* {
+    margin: 0;
+    padding: 0;
+}
+
+header {
+    background-color: #FFC107;
+
+}
+
+header nav {
+    padding: 0;
+    
+}
+div.conteiner_header {
+    width: 95%;
+    margin: auto;
+
+}
+
+ul {
+    list-style-type: none;
+
+}
+
+li {
+    display: inline;
+}
+
+form button {
+    background-color: transparent;
+    border: 1px solid white;
+    color: white;
+    padding: 8px 14px;
+    border-radius: 4px;
+}
+
+form button:hover {
+    background-color: white;
+    color: black;
+    transition: all 0.5s;
+}
+
+hr {
+    width: 100%;
+}
+
+#cadastro button {
+    width: 150px;
+    font-size: 1.2em;
+}
+
+#cadastro input[type=email]{
+    font-size: 1.2em;
+
+}
+
+main {
+    margin: auto;
+}
+
+aside {
+    padding: 40px;
+}
+
+div.conteudo  {
+    margin: 7% 0;
+}
