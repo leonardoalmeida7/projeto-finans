@@ -130,6 +130,10 @@
     div#conteudo-text2 {
         margin-top: 55%;
     }
+
+    footer ul{
+        text-align: center;
+    }
     
     
 }
@@ -159,7 +163,7 @@
     }
 
     .info {
-        width: 550px;
+        width: 580px;
         
     }
 
@@ -195,4 +199,7 @@
         margin-top: 55%;
     }
     
+    footer ul{
+        text-align: center;
+    }
 }

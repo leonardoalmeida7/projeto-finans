@@ -20,9 +20,11 @@ ul {
 
 }
 
-li {
+footer li {
     display: inline;
+    margin: 0px 10px;
 }
+
 
 form button {
     background-color: transparent;
@@ -49,7 +51,7 @@ hr {
 
 #cadastro input[type=email]{
     font-size: 1.2em;
-
+    
 }
 
 main {
@@ -62,4 +64,13 @@ aside {
 
 div.conteudo  {
     margin: 7% 0;
+}
+
+footer {
+    padding: 20px;
+}
+
+menu {
+    display: flex;
+    justify-content: flex-end;
 }
